@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #2f2f2f 0%, #070707 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 32px;
+  background: #2b2b2b;
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(55, 48, 163, 0.18);
+  border: 2.5px solid #facc15;
+}
+
+.logo {
+  width: 100%;
+  height: 180px;
+  object-fit: scale-down;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18), 0 0 0 4px #facc15;
+  margin-bottom: 18px;
+  background: #ede9fe;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  color: #de9516;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.7rem;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+
+
+p {
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+label {
+  color: #de9516;
+  line-height: 1.7;
+}
+
+button, .submit-btn {
+  background: linear-gradient(90deg, #41403e 0%, #facc15 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 28px;
+  font-size: 1.08rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(90, 72, 163, 0.10);
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover, .submit-btn:hover {
+  background: linear-gradient(90deg, #facc15 0%, #a78bfa 100%);
+  color: #272727;
+}
+
+.menu-img {
+  width: 220px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(90, 72, 163, 0.13), 0 0 0 3px #facc15;
+  border: 1.5px solid #a78bfa;
+  background: #ede9fe;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

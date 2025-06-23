@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+please take note of the following:
+
+this company is not real
+this is for a codédex project
+-->
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Epicurean Edge</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <img src="img/epicurean_edge.png" alt="Epicurean Edge Logo" class="logo" id="header-img">   
+                <h1>Epicurean Edge</h1>
+                <nav>
+                    <ul>
+                        <h2>menu 2</h2>
+                        <h2>order form</h2>
+                    </ul>
+            </header>
+            <main>
+                <section>
+                    <h2> menu</h2>
+                    <menu>
+                        <h2>appetizers</h2>
+                        <article>
+                        <p>you will find a selection of our finest appetizers below. each dish is crafted with care and attention to detail, ensuring a delightful start to your meal.</p>
+                        </article>
+                        <div>
+                            <img src="img/salad.webp" alt="salad" class="menu-img">
+                            <h3>salad</h3>
+                            <p>Fresh garden salad with seasonal vegetables. id:0</p>
+                        </div>
+                        <hr>
+                        <h2>main courses</h2>
+                        <article>
+                        <p>you  will find a selection of our finest main courses below. each dish is crafted with care and attention to detail, ensuring a delightful main course experience.</p>
+                        </article>
+                        <div>
+                            <img src="img/steak.webp" alt="steak" class="menu-img">
+                            <h3>steak</h3>
+                            <p>Well done steak with a side of mashed potatoes. id:1</p>
+                            
+                        </div>
+                        <hr class = "between">
+                        <div>
+                            <img src="img/pizza.webp" alt="pizza" class="menu-img">
+                            <h3>pizza</h3>
+                            <p>cheese pizza with peperoni to top it off. id:2</p>
+                        </div>
+                        <hr>
+                        <h2>desserts</h2>
+                        <article>
+                            <p>you will find a selection of our finest desserts below. each dish is crafted with care and attention to detail, ensuring a delightful end to your meal.</p>
+                        </article>
+                        <div>
+                            <img src="img/lava_cake.webp" alt="lava cake" class="menu-img">
+                            <h3>Lava cake</h3>
+                            <p>Chocolate lava cake with a molten center. id:3</p>
+                        </div>
+                    </menu>
+                </section>
+                <hr>
+                <hr>
+                <section>
+                    <h2>place your order</h2>
+                    <form>
+                        <input type="number" minlength="0" maxlength="3"  placeholder="Enter item ID" required>
+
+                        <h3>add-ons</h3>
+                        <p>select any add-ons you would like to include with your order.</p>
+                        <label for="add-on1">kechup</label> <input type="checkbox" id="add-on1" name="add-on1">
+                        <br>
+                        <label for="add-on2">mustard</label> <input type="checkbox" id="add-on2" name="add-on2">
+                        <br>
+                        <label for="add-on3">BBQ</label> <input type="checkbox" id="add-on3" name="add-on3">
+                        <br><br>
+
+
+                        <label>special instrucions:</label>
+                        <br>
+                        <textarea id="order" name="order" rows="4" ></textarea>
+
+                        
+                        <br>
+                        <input type="submit" value="Go to checkout" class="submit-btn">
+                        
+                    </form>        
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
